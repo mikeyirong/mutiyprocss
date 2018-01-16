@@ -53,7 +53,7 @@ public class MutiyProcess implements Runnable{
 		in.close();
 	}
 	public static void main(String[] args) {
-      	Thread thread = new Thread(new MutiyProcess("E:\\soft\\super.bat","7899"));
+      	Thread thread = new Thread(new MutiyProcess("D:\\workspace\\mutilprocess\\src\\main\\resources\\super.bat","7899"));
       	thread.start();
 	}
 }
